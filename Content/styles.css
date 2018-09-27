@@ -1,0 +1,63 @@
+﻿.custom-nav {
+    overflow: hidden;
+    background-color: #B30000;
+    width: 100%;
+    top: 0;
+    /*position: fixed;
+  z-index: 9;*/
+    padding: .5% 5% .5% 5%;
+}
+
+    .custom-nav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 12px 14px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+        .custom-nav a:hover {
+            background-color: #ddd;
+            color: #191919;
+        }
+
+.active {
+    background-color: #191919;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.custom-nav .icon {
+    display: none;
+}
+
+.secret-header h1 {
+    text-transform: none;
+    color: #00FF00;
+    text-align: center;
+}
+
+.secret-header h3 {
+    color: #00FF00;
+}
+
+.cursor {
+    animation: blink 1s infinite;
+    color: #00FF00;
+    cursor: pointer;
+}
+
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
